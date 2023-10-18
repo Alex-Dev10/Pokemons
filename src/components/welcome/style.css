@@ -1,0 +1,103 @@
+.welcome{
+    background-color: blueviolet;
+height: 100vh;
+
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+position: relative;
+border: 20px solid #eb5137;
+
+
+
+
+}
+
+
+
+.WelcomeTitle{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden; /* Evita que el contenido se desborde del contenedor */
+
+}
+
+
+.WelcomeTitle span{
+    font-size: 50px;
+    color: black;
+}
+
+
+.WelcomeTitle h1{
+    font-size: 80px;
+    font-weight: 700;
+    color: #fcd04a;
+    text-shadow: 1px -3px 32px rgba(235,81,55,0.77);
+   
+    animation: parpadeo 1.5s infinite; 
+
+}
+
+.WelcomePicture{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+ 
+  
+    
+
+}
+
+.WelcomePicture img{
+  width: 900px;
+  height: auto;
+}
+
+.welcome .btn{
+    background-color: #eb5137;
+    font-size: 25px;
+    color:black;
+    
+}
+
+
+.welcome .btn:hover{
+    background-color: #fcd04a;
+    font-size: 25px;
+    color: black;
+}
+
+
+.TopBar{
+    height: 40px;
+    background-color: #eb5137;
+width: 100%;
+position: absolute;
+top: 0px;
+left: 0px;
+border-bottom-left-radius: 25px;
+border-bottom-right-radius: 25px;
+}
+
+@keyframes parpadeo {
+    0% {
+        text-shadow: -8px -8px 11px rgba(235,81,55,1);
+    }
+    50% {
+      text-shadow: none; 
+    }
+    100% {
+        text-shadow: -8px -8px 11px rgba(235,81,55,1);
+    }
+  }
+  
+ 
+  

@@ -1,0 +1,37 @@
+.carrousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.pokemon-info {
+  text-align: center;
+  padding: 15px;
+  
+ 
+}
+
+.pokemon-info .pokemon-name {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 2.2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.CarrouselImage{
+
+
+  width: 150px;
+
+}
